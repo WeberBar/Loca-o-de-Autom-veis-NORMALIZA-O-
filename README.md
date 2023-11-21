@@ -4,7 +4,7 @@
 
 ![tabela](TABELA_NORMALIZACAO.png)
 
-<h2>Objetivo:</h2>
+<h2>Objetivos:</h2>
 
 <ul> 
   <li>Observar a tabela não normalizada de uma locadora de veículos e aplique a 3ª Forma normal</li>
@@ -13,4 +13,6 @@
   <li>Criar uma view que seleciona todas as locações e seus respectivos veículos e clientes</li>
 </ul>
 
-<h3></h3>
+<h3>1- Modelo lógico</h3>
+
+![modelo](modelo_logico.png)
