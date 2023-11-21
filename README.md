@@ -118,3 +118,6 @@ create view Locacao_e_seus_Veiculos_e_Clientes as
 ```mysql
 select locacaoVeiculoCliente.*, (select (locacaoVeiculoCliente.valorDiaria * locacaoVeiculoCliente.Dias_de_Locacao)) as 'total_(R$)' from Locacao_e_seus_Veiculos_e_Clientes locacaoVeiculoCliente;
 ```
+
+##### Resultado:
+![resultado](resultado.png)
