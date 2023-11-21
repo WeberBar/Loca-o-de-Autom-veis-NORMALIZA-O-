@@ -16,3 +16,4 @@
 <h3>1- Modelo lógico</h3>
 
 ![modelo](modelo_logico.png)
+
