@@ -20,8 +20,6 @@ Observar a tabela não normalizada de uma locadora de veículos e aplique a 3ª 
 <h3>2- Escrever o script que cria as tabelas</h3>
 
 ```mysql
-
-
 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
@@ -121,3 +119,6 @@ select locacaoVeiculoCliente.*, (select (locacaoVeiculoCliente.valorDiaria * loc
 
 ##### Resultado:
 ![resultado](resultado.png)
+
+# Fim
+Código: ![Código](Normalizacao.sql)
