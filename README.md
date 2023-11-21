@@ -7,8 +7,8 @@
 <h2>Objetivo:</h2>
 
 <ol> 
-  <li>Observar a tabela não normalizada de uma locadora de veículos e aplique a 3ª Forma normal;</li>
-  <li>Fazer o modelo lógico de banco de dados relacional;</li>
-  <li>Escrever o script que cria as tabelas;</li>
-  <li>Criar uma view que seleciona todas as locações e seus respectivos veículos e clientes.</li>
+  <li>Observar a tabela não normalizada de uma locadora de veículos e aplique a 3ª Forma normal</li>
+  <li>Fazer o modelo lógico de banco de dados relacional</li>
+  <li>Escrever o script que cria as tabelas</li>
+  <li>Criar uma view que seleciona todas as locações e seus respectivos veículos e clientes</li>
 </ol>
