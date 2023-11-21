@@ -3,3 +3,5 @@
 <h5>Tabela</h5>
 
 ![tabela](TABELA_NORMALIZACAO.png)
+
+<h2>Objetivo:</h2>
