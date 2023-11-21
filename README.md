@@ -95,8 +95,11 @@ values ('WER-3456', 'Fusca', 'Preto', 30.0), ('FDS-8384', 'Variante', 'Rosa', 60
 ('DDI-3948', 'Brasilia', 'Amarelo', 45.0);
 ```
 
+
 ##### Tabela Locação:
 ```mysql
 insert into Locacao(CodLocacao, Dias_de_locacao, Clientes_idCliente, Veiculos_idVeiculo)
 values (101, 3, 1, 1), (102, 7, 2, 2), (103, 1, 3, 3), (104, 3, 4, 4), (105, 7, 5, 5);
 ```
+
+<h3>3 - Crie uma view que seleciona todas as locações e seus respectivos veículos e clientes.</h3>
