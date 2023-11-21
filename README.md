@@ -113,3 +113,8 @@ create view Locacao_e_seus_Veiculos_e_Clientes as
 	inner join Clientes c on l.Clientes_idCliente = c.idCliente;
 
 ```
+
+##### Selecionando a view:
+```mysql
+select locacaoVeiculoCliente.*, (select (locacaoVeiculoCliente.valorDiaria * locacaoVeiculoCliente.Dias_de_Locacao)) as 'total_(R$)' from Locacao_e_seus_Veiculos_e_Clientes locacaoVeiculoCliente;
+```
