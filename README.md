@@ -103,3 +103,13 @@ values (101, 3, 1, 1), (102, 7, 2, 2), (103, 1, 3, 3), (104, 3, 4, 4), (105, 7, 
 ```
 
 <h3>3 - Crie uma view que seleciona todas as locações e seus respectivos veículos e clientes.</h3>
+
+```mysql
+create view Locacao_e_seus_Veiculos_e_Clientes as
+	select l.CodLocacao, v.idVeiculo, v.placa, v.modelo, v.cor, c.idCliente,
+    c.nome_cliente, c.cpf, c.data_de_nascimento, v.valorDiaria, l.Dias_de_locacao
+	from Locacao l inner join Veiculos v
+		on l.Veiculos_idVeiculo = v.idVeiculo
+	inner join Clientes c on l.Clientes_idCliente = c.idCliente;
+
+```
